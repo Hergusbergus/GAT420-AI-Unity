@@ -25,6 +25,11 @@ public class AIKinematicMovement : AIMovement
         //
     }
 
+    public void Awake()
+    {
+        
+    }
+
     void LateUpdate()
     {
         Velocity += Acceleration * Time.deltaTime;
